@@ -1,27 +1,21 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\vivekgujari\\Desktop\\MovieRentalApp\\API\\API\\API.csproj": {}
+    "C:\\Users\\vivek\\Desktop\\MovieRentalApp\\API\\MovieRentalApp\\API\\API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\vivekgujari\\Desktop\\MovieRentalApp\\API\\API\\API.csproj": {
+    "C:\\Users\\vivek\\Desktop\\MovieRentalApp\\API\\MovieRentalApp\\API\\API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\vivekgujari\\Desktop\\MovieRentalApp\\API\\API\\API.csproj",
+        "projectUniqueName": "C:\\Users\\vivek\\Desktop\\MovieRentalApp\\API\\MovieRentalApp\\API\\API.csproj",
         "projectName": "API",
-        "projectPath": "C:\\Users\\vivekgujari\\Desktop\\MovieRentalApp\\API\\API\\API.csproj",
-        "packagesPath": "C:\\Users\\vivekgujari\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\vivekgujari\\Desktop\\MovieRentalApp\\API\\API\\obj\\",
+        "projectPath": "C:\\Users\\vivek\\Desktop\\MovieRentalApp\\API\\MovieRentalApp\\API\\API.csproj",
+        "packagesPath": "C:\\Users\\vivek\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\vivek\\Desktop\\MovieRentalApp\\API\\MovieRentalApp\\API\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
-        ],
         "configFilePaths": [
-          "C:\\Users\\vivekgujari\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Users\\vivek\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
@@ -83,7 +77,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
         }
       }
     }

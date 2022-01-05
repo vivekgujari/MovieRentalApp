@@ -8,11 +8,11 @@ using System.Threading.Tasks;
 namespace API.Controllers
 {
     [ApiController]
-    public class EmployeeController : Controller
+    public class EmployeesController : Controller
     {
         private readonly IRepository _repository;
 
-        public EmployeeController(IRepository repository)
+        public EmployeesController(IRepository repository)
         {
             _repository = repository;
         }
