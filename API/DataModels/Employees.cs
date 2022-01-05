@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 
 namespace API.DataModels
 {
-    public class Employee
+    public class Employees
     {
         public int Id { get; set; }
         public string FirstName { get; set; }

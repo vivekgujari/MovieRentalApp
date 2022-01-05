@@ -8,10 +8,10 @@ namespace API.Repositories
 {
     public interface IRepository
     {
-        Task<List<Employee>> GetEmployeesAsync();
-        Task<Employee> GetEmployeeAsync(Guid EmployeeId);
-        Task<Employee> AddEmployeeAsync(Employee employee);
-        Task<Employee> UpdateEmployeeAsync(Guid EmployeeId, Employee employee);
-        Task<Employee> DeleteEmployeeAsync(Guid EmployeeId);
+        Task<List<Employees>> GetEmployeesAsync();
+        Task<Employees> GetEmployeeAsync(Guid EmployeeId);
+        Task<Employees> AddEmployeeAsync(Employees employee);
+        Task<Employees> UpdateEmployeeAsync(Guid EmployeeId, Employees employee);
+        Task<Employees> DeleteEmployeeAsync(Guid EmployeeId);
     }
 }

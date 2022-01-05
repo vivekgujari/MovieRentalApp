@@ -14,37 +14,37 @@ namespace API.Repositories
         {
             _context = context;
         }
-        public async Task<Employee> AddEmployeeAsync(Employee request)
+        public async Task<Employees> AddEmployeeAsync(Employees request)
         {
-            var employee = await _context.Employee.AddAsync(request);
+            var employee = await _context.Employees.AddAsync(request);
             await _context.SaveChangesAsync();
             return employee.Entity;
         }
 
-        public async Task<Employee> DeleteEmployeeAsync(Guid EmployeeId)
+        public async Task<Employees> DeleteEmployeeAsync(Guid EmployeeId)
         {
-            var employee = await _context.Employee.FindAsync(EmployeeId);
+            var employee = await _context.Employees.FindAsync(EmployeeId);
             if (employee != null)
             {
-                _context.Employee.Remove(employee);
+                _context.Employees.Remove(employee);
                 await _context.SaveChangesAsync();
                 return employee;
             }
             return null;
         }
 
-        public async Task<Employee> GetEmployeeAsync(Guid EmployeeId)
+        public async Task<Employees> GetEmployeeAsync(Guid EmployeeId)
         {
-            var employee = await _context.Employee.FindAsync(EmployeeId);
+            var employee = await _context.Employees.FindAsync(EmployeeId);
             return employee;
         }
 
-        public async Task<List<Employee>> GetEmployeesAsync()
+        public async Task<List<Employees>> GetEmployeesAsync()
         {
-            return await _context.Employee.ToListAsync();
+            return await _context.Employees.ToListAsync();
         }
 
-        public async Task<Employee> UpdateEmployeeAsync(Guid EmployeeId, Employee employee)
+        public async Task<Employees> UpdateEmployeeAsync(Guid EmployeeId, Employees employee)
         {
             var existingemployee = await GetEmployeeAsync(EmployeeId);
             if (existingemployee != null)

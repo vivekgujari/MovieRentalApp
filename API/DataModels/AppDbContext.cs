@@ -13,7 +13,7 @@ namespace API.DataModels
         {
 
         }
-        public DbSet<Employee> Employee { get; set; }
+        public DbSet<Employees> Employees { get; set; }
         public DbSet<Title> Title { get; set; }
 
     }
